@@ -1,3 +1,5 @@
+#![allow(dead_code, unused_variables, non_snake_case)]
+
 // --------------------------------  ENUM with Struct and Struct Impl  -------------------------------
 // _________________________________________________________________________
 // #[derive(Debug)]                                                     //  |
@@ -55,13 +57,13 @@ impl Message {                                                                  
         //                                                                                                                  |
         println!("{:?}", self);                                      //**//  Instead, you need to match  //**//             | 
         if let Message::Write(ref mut text) = self {    //**// it properly using "if let" or "match". //**//                |
-        text.push_str(" Singh");                                                                                        //  |
+        text.push_str(" Singh");                                                                                //  |
         println!("Name: {}", text);                                                                                     //  |
     }                                                                                                                   //  |
 }                                                                                                                       //  |
 }                                                                                                                       //  |
 pub fn impl_in_enum() {                                                                                                 //  |
-    let mut m = Message::Write(String::from("Ujjawal"));                                                                //  |
+    let mut m = Message::Write(String::from("Ujjawal"));                                                       //  |
     m.call();                                                                                                           //  |
 }                                                                                                                       //  |
 // _________________________________________________________________________________________________________________________|

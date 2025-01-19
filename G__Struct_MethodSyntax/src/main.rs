@@ -1,3 +1,5 @@
+#![allow(dead_code, unused_variables, non_snake_case)]
+
 mod a__struct;
 mod b__struct_example;
 mod c__method_syntax;

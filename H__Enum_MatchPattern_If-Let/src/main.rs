@@ -1,3 +1,5 @@
+#![allow(dead_code, unused_variables, non_snake_case)]
+
 mod a__enum_basic;
 mod b__match_pattern;
 
@@ -15,5 +17,5 @@ fn main() {
     println!("________  Catch All Pattern  ___________");
     b__match_pattern::catch_all_pattern();
     println!("________  If Let Concise ControlFlow  ___________");
-    b__match_pattern::if_let_concise_controlflow();      ;
+    b__match_pattern::if_let_concise_controlflow();      
 }

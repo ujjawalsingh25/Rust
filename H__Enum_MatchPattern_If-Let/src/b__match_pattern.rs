@@ -1,3 +1,5 @@
+#![allow(dead_code, unused_variables, non_snake_case)]
+
 // --------------------------------  Match Pattern  ---------------------------------------
 // _________________________________________________________________________________________________________________
 #[derive(Debug)]                                                                                                //  |
@@ -76,9 +78,9 @@ pub fn catch_all_pattern() {                                                    
 // ---------------  If Let Concise ControlFlow  --------------
 // _________________________________________________________________________
 pub fn if_let_concise_controlflow() {                                   //  |
-    let dice_rolled = Some(3_u8);       // 3 taken as u8 values         //  |
-    if let Some(maxVal) = dice_rolled {                                 //  |
-        println!("Max Value: {}", maxVal)                               //  |
+    let dice_rolled = Some(3_u8);       // 3 taken as u8 values |
+    if let Some(max_val) = dice_rolled {                            //  |
+        println!("Max Value: {}", max_val)                              //  |
     }                                                                   //  |
     let dice_not_rolled: Option<u8> = None;                             //  |      
     if let None = dice_not_rolled {                                     //  |

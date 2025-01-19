@@ -1,3 +1,5 @@
+#![allow(dead_code, unused_variables, non_snake_case)]
+
 pub fn references() {
     let mut s = String::from("Ujjawal");
 
