@@ -1,5 +1,8 @@
+#![allow(dead_code, unused_variables, non_snake_case)]
+
 pub fn slice_type() {
-    let mut s = String::from("Patna 800007");
+    let s = String::from("Patna 800007");
+    // let mut s = String::from("Patna 800007");
                                             // Since, we passed string and get space index and changed the string 
     // let result = space_pos(&s);          // But here both result will not be in sync in below code to print 
     // s.clear();                           // as there will be no string but result gives a 'space at index 5'
