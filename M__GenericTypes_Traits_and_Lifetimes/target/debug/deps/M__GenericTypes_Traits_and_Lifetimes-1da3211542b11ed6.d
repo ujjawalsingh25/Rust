@@ -1,0 +1,8 @@
+C:\Users\Ujjawal Singh\Documents\Web Development\Web Dev\Rust\M__GenericTypes_Traits_and_Lifetimes\target\debug\deps\libM__GenericTypes_Traits_and_Lifetimes-1da3211542b11ed6.rmeta: src/main.rs src\a__generic_types.rs src\b__traits.rs src\c__lifetimes.rs
+
+C:\Users\Ujjawal Singh\Documents\Web Development\Web Dev\Rust\M__GenericTypes_Traits_and_Lifetimes\target\debug\deps\M__GenericTypes_Traits_and_Lifetimes-1da3211542b11ed6.d: src/main.rs src\a__generic_types.rs src\b__traits.rs src\c__lifetimes.rs
+
+src/main.rs:
+src\a__generic_types.rs:
+src\b__traits.rs:
+src\c__lifetimes.rs:
